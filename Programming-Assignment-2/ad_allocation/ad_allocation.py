@@ -5,12 +5,12 @@ def allocate_ads(n, m, A, b, c):
   # Write your code here
   return [0, [0] * m]
 
-n, m = list(map(int, stdin.readline().split()))
+n, m = list(map(int, input().split()))
 A = []
 for i in range(n):
-  A += [list(map(int, stdin.readline().split()))]
-b = list(map(int, stdin.readline().split()))
-c = list(map(int, stdin.readline().split()))
+  A += [list(map(int, input().split()))]
+b = list(map(int, input().split()))
+c = list(map(int, input().split()))
 
 anst, ansx = allocate_ads(n, m, A, b, c)
 
